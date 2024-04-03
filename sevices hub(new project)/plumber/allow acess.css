@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    height: 100vh;
+    opacity: 80%;
+
+}
+.navbar
+{
+    height: 10%;
+    width: 90%;
+    background-color: aqua;
+    margin-left: 5%;
+    margin-top: 2%;
+    opacity: 100%;
+}
+.container1
+{
+    height:50%;
+    width: 90%;
+    /* background-color: blueviolet; */
+    margin-left: 5%;
+    margin-top: 2%;
+    display: flex;
+}
+.container2
+{
+    height:50%;
+    width: 90%;
+    /* background-color:blue; */
+    margin-left: 5%;
+    margin-top: 2%;
+    display: flex;
+}
+.data1
+{
+    width: 50%;
+    height:50%;
+    display: flex;
+    flex-direction: column;
+}
+.img1
+{
+
+    width: 50%;
+    height:100%;
+    /* background-color: aqua; */
+}
+.data2
+{
+    width: 50%;
+    height:50%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+}
+.img2
+{
+    width: 50%;
+    height:100%;
+    /* background-color: aqua; */
+}
+.img1 img{
+    height: 100%;
+    width: 40%;
+    margin-left: 10%;
+}
+.img2 img{
+    height: 100%;
+    width: 50%;
+}
+.data1 h1{
+    margin-left: 8%;
+    margin-top: 5%;
+    font-family: "Readex Pro", sans-serif;
+}
+.data1 h2{
+    margin-left: 8%;
+    margin-top: 10%;
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 250;
+}
+.img2 img{
+    margin-left: 10%;
+    width: 70%;
+}
+.data2 h1{
+    /* margin-left: 8%; */
+    margin-top: 5%;
+    font-family: "Readex Pro", sans-serif;
+}
+.data2 h2{
+    /* margin-left: 8%; */
+    margin-top: 5%;
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 250;
+}
+button{
+    width: 20%;
+    /* height: 30%; */
+    padding: 1%;
+    margin-top: 5%;
+    margin-left: 25%;
+    background-color: #F0DF1C;
+    color: black;
+    border-radius: 20px;
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 800;
+}
